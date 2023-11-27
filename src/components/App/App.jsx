@@ -1,9 +1,10 @@
 import Header from "../Header/Header";
-import "./App.css";
+import styles from "./App.module.css";
 
 export default function App() {
+  const { container } = styles;
   return (
-    <div>
+    <div className={container}>
       <Header />
     </div>
   );
