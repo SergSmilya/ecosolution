@@ -1,5 +1,7 @@
+@import '../node_modules/modern-normalize/modern-normalize.css';
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -65,4 +67,62 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+/* Reset CSS */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+/* body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1;
+  font-style: normal;
+  color: var(--primary-text-color);
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+} */
+
+img {
+  display: flex;
+  vertical-align: top;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  font: inherit;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+input,
+button,
+textarea,
+select {
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: transparent;
 }
