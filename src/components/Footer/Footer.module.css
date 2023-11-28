@@ -1,0 +1,11 @@
+.footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.footer__logoButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}

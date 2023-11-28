@@ -54,14 +54,14 @@ img {
 svg {
   display: flex;
   stroke-width: 0;
-  stroke: black;
+  stroke: var(--primaryTextColor);
   fill: currentColor;
 }
 
 a {
   text-decoration: none;
-  font: inherit;
-  color: inherit;
+  /* font: inherit;
+  color: inherit; */
 }
 
 a:hover {

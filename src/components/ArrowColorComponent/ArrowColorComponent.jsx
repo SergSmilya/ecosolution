@@ -1,6 +1,11 @@
 import sprite from "../../assets/imgs/svg/sprite.svg";
 
-export default function ArrowColorComponent({ size = 32, coef = 0, pad = 8 }) {
+export default function ArrowColorComponent({
+  size = 32,
+  coef = 0,
+  pad = 8,
+  position = 0,
+}) {
   return (
     <svg
       width={size}
@@ -13,6 +18,7 @@ export default function ArrowColorComponent({ size = 32, coef = 0, pad = 8 }) {
         justifyContent: "center",
         padding: `${pad}`,
         fill: "none",
+        transform: `rotate(${position}deg)`,
       }}
     >
       <use

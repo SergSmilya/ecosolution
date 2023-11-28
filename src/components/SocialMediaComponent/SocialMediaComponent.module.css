@@ -1,0 +1,16 @@
+.social__wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.social__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
+}
+
+.social__link {
+    width: 24px;
+    height: 24px;
+}
