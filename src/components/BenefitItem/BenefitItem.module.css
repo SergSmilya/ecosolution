@@ -1,0 +1,29 @@
+.benefit__container {
+    padding: 13px 12px;
+}
+
+.icon__desc {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    line-height: 150%;
+}
+
+.icon__wrap {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 33px;
+}
+
+.benefit__desc {
+    font-size: 14px;
+    letter-spacing: -0.56px;
+}
+
+.benefit__desc::before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: var(--primaryGreenColor);
+    margin-bottom: 12px;
+}

@@ -1,12 +1,14 @@
-.title {
-    font-family: 'Oswald', sans-serif;
-    color: black;
-}
-
 .headerWrap {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 36px;
+    padding-bottom: 146px;
+}
+
+.header__wrapForButton {
+    display: flex;
+    gap: 12px;
 }
 
 .headerButton {
