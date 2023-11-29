@@ -10,7 +10,7 @@ export default function BenefitItem({
   return (
     <div className={benefit__container}>
       <div className={icon__wrap}>
-        <svg width={16} height={16}>
+        <svg width={16} height={16} fill={"none"}>
           <use href={`${sprite}#${nameIcon}`} />
         </svg>
         <p className={icon__desc}>{nameBenefit}</p>

@@ -14,3 +14,8 @@
     width: 24px;
     height: 24px;
 }
+
+.social__icon {
+    fill: white;
+    stroke: var(--primaryTextColor); 
+}

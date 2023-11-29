@@ -1,0 +1,30 @@
+/* .question__item {
+    display: flex;
+} */
+
+.question__item::before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: var(--primaryGreenColor);
+    margin-bottom: 16px;
+}
+
+.question__button {}
+
+.question__title {
+    text-align: justify;
+    font-size: 18px;
+    letter-spacing: -0.72px;
+    margin-bottom: 16px;
+}
+
+.question__title::after {
+    content: '';
+}
+
+.answer__text {
+    text-align: justify;
+    font-size: 14px;
+    letter-spacing: -0.56px;
+}

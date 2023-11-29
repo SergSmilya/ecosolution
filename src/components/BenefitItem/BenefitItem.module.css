@@ -1,5 +1,8 @@
 .benefit__container {
     padding: 13px 12px;
+    width: 148px;
+    height: 197px;
+    background-color: var(--bgdColorCardBenefit);
 }
 
 .icon__desc {
@@ -16,6 +19,7 @@
 }
 
 .benefit__desc {
+    text-align: justify;
     font-size: 14px;
     letter-spacing: -0.56px;
 }

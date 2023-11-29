@@ -1,0 +1,18 @@
+.about__section {
+    padding-top: 24px;
+}
+
+.about__title {
+    margin-bottom: 24px;
+}
+
+.about__postTitle {
+    text-align: justify;
+    margin-bottom: 36px;
+}
+
+.card__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}

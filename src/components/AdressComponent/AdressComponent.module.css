@@ -1,0 +1,19 @@
+.adress {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.adress__link {
+    letter-spacing: -0.64px;
+    transition: color 0,3s;
+}
+
+.adress__link:hover,.adress__link:focus {
+   color: var(--primaryGreenColor);
+}
+
+.adress__text {
+    display: none;
+}

@@ -1,5 +1,6 @@
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
+import Main from "../Main/Main";
 import styles from "./App.module.css";
 
 export default function App() {
@@ -8,6 +9,7 @@ export default function App() {
     <div>
       <div className={container}>
         <Header />
+        <Main />
         <Footer />
       </div>
     </div>
