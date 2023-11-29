@@ -7,6 +7,7 @@
   --bgdColorCardBenefit: #EAEDF1;
   --primaryGreenColor: #97D28B;
   --primaryTextColor: #173D33;
+  --colorTextInput:#828382;
 
   font-family: 'Fira Sans', sans-serif;
   line-height: 1;
@@ -67,6 +68,7 @@ svg {
   display: flex;
   stroke-width: 0;
   stroke: var(--primaryTextColor);
+  fill: transparent;
 }
 
 a {

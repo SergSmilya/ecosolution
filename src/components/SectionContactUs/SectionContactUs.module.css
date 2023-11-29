@@ -1,0 +1,45 @@
+.contactUs__section {
+    padding-top: 36px;
+    padding-bottom: 24px;
+}
+
+.contactUs__title {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.main__wrap {
+    width: 244px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.contactUs__postTitle {
+    letter-spacing: -0.64px;
+    margin-bottom: 8px;
+}
+
+.tel__item:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.contactUs__link {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    text-align: justify;
+    font-size: 16px;
+    letter-spacing: -0.8px;
+}
+
+.social__list {
+    display: flex;
+    row-gap: 8px;
+}
+
+.social__item {
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+}

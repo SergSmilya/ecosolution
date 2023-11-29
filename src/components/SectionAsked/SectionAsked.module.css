@@ -1,7 +1,23 @@
 .asked__section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding-top: 36px;
 }
 
 .asked__title {
+    width: 320px;
     margin-bottom: 24px;
+}
+
+.questions__list {
+    margin-bottom: 36px;
+}
+
+.asked__postTitle {
+    margin-bottom: 12px;
+}
+
+.asked__buttonWrap {
+   
 }

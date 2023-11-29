@@ -1,10 +1,11 @@
 import Logo from "../Logo/Logo";
 import ArrowColorComponent from "../ArrowColorComponent/ArrowColorComponent";
-import style from "./Footer.module.css";
 import SocialMediaComponent from "../SocialMediaComponent/SocialMediaComponent";
+import AdressComponent from "../AdressComponent/AdressComponent";
+import style from "./Footer.module.css";
 
 export default function Footer() {
-  const { footer, footer__logoButton } = style;
+  const { footer, footer__logoButton, social__wrap } = style;
 
   return (
     <div className={footer}>
@@ -12,7 +13,10 @@ export default function Footer() {
         <Logo />
         <ArrowColorComponent position={270} />
       </div>
-      <SocialMediaComponent />
+      <div className={social__wrap}>
+        <SocialMediaComponent />
+      </div>
+      <AdressComponent />
     </div>
   );
 }

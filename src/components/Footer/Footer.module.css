@@ -1,11 +1,23 @@
 .footer {
-    padding-top: 24px;
+    padding-top: 36px;
     padding-bottom: 24px;
+}
+
+.footer::before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: var(--primaryGreenColor);
+    margin-bottom: 24px;
 }
 
 .footer__logoButton {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.social__wrap {
     margin-bottom: 24px;
 }
