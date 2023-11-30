@@ -5,6 +5,7 @@ export default function SectionWhatIsIt() {
   const {
     whatIsIt__section,
     whatIsIt__title,
+    wrapper,
     whatIsIt__postTitle,
     button__wrap,
   } = style;
@@ -12,13 +13,15 @@ export default function SectionWhatIsIt() {
   return (
     <section className={whatIsIt__section}>
       <h1 className={whatIsIt__title}>RENEWABLE ENERGY For any task</h1>
-      <p className={whatIsIt__postTitle}>
-        Development and implementation of renewable non-polluting energy
-        sources, generating power generation using energy wind, sun, water,
-        biomass
-      </p>
-      <div className={button__wrap}>
-        <SecondaryButton>Learn more</SecondaryButton>
+      <div className={wrapper}>
+        <p className={whatIsIt__postTitle}>
+          Development and implementation of renewable non-polluting energy
+          sources, generating power generation using energy wind, sun, water,
+          biomass
+        </p>
+        <div className={button__wrap}>
+          <SecondaryButton>Learn more</SecondaryButton>
+        </div>
       </div>
     </section>
   );
