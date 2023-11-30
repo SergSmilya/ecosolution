@@ -1,6 +1,7 @@
 .contactUs__section {
     padding-top: 36px;
     padding-bottom: 24px;
+    scroll-margin: 24px;
 }
 
 .contactUs__title {

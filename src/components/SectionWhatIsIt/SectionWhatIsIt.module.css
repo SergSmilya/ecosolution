@@ -1,6 +1,7 @@
 .whatIsIt__section {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 222px;
 }
 
 .whatIsIt__section::after {

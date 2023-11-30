@@ -1,4 +1,3 @@
-import SocialMediaComponent from "../SocialMediaComponent/SocialMediaComponent";
 import sprite from "../../assets/imgs/svg/sprite.svg";
 import style from "./SectionContactUs.module.css";
 
@@ -21,7 +20,7 @@ export default function SectionContactUs() {
   } = style;
 
   return (
-    <section className={contactUs__section}>
+    <section className={contactUs__section} id="contactUs">
       <h2 className={contactUs__title}>Contact us</h2>
       <div className={main__wrap}>
         <div className={tel__wrap}>

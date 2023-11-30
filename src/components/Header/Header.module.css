@@ -1,9 +1,15 @@
+.header {
+    position: fixed;
+    top: 36px;
+    left: auto;
+    width: inherit;
+    outline: 1px solid red;
+}
+
 .headerWrap {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 36px;
-    padding-bottom: 146px;
 }
 
 .header__wrapForButton {
