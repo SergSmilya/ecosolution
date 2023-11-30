@@ -1,5 +1,5 @@
 import AnswQuestItemComponent from "../AnswQuestItemComponent/AnswQuestItemComponent";
-import ButtonGetInTouchComponent from "../ButtonGetInTouchComponent/ButtonGetInTouchComponent";
+import ButtonScrollComponent from "../ButtonScrollComponent/ButtonScrollComponent";
 import style from "./SectionAsked.module.css";
 
 export default function SectionAsked() {
@@ -39,7 +39,7 @@ export default function SectionAsked() {
         Didn't find the answer to your question?
       </p>
       <div className={asked__buttonWrap}>
-        <ButtonGetInTouchComponent>Contact Us</ButtonGetInTouchComponent>
+        <ButtonScrollComponent>Contact Us</ButtonScrollComponent>
       </div>
     </section>
   );

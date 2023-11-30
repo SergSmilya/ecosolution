@@ -8,7 +8,7 @@ import SectionWhatIsIt from "../SectionWhatIsIt/SectionWhatIsIt";
 
 export default function Main() {
   return (
-    <main>
+    <main style={{ flexGrow: 1 }} id="main">
       <SectionWhatIsIt />
       <SectionAbout />
       <SectionElectricProd />

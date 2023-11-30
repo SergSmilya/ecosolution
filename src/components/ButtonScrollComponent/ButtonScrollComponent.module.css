@@ -1,0 +1,41 @@
+.button__get {
+    background-color: var(--primaryGreenColor);
+    border-radius: 500px;
+    padding: 10px 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.64px;
+        transition: all 250ms var(--timingFunction);
+
+}
+
+.button__get:hover,.button__get:focus {
+    background-color: var(--primaryTextColor);
+    color: var(--primaryGreenColor);
+}
+
+.button__get::after {
+    content: '';
+    width: 14px;
+    height: 14px;
+    background-color: var(--primaryTextColor);
+    border-radius: 50%;
+        transition: all 250ms var(--timingFunction);
+
+}
+
+.button__get:hover::after,.button__get:focus::after {
+    background-color: var(--primaryGreenColor);
+    background-image: url('../../assets/imgs/svg/arrow-right.svg');
+    background-size: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+}

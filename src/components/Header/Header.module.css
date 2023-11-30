@@ -1,9 +1,9 @@
 .header {
     position: fixed;
     top: 36px;
-    left: auto;
-    width: inherit;
-    outline: 1px solid red;
+    left: 0;
+    right: 0;
+    padding: 0 20px;
 }
 
 .headerWrap {
@@ -25,4 +25,9 @@
     padding: 4px 12px;
     justify-content: center;
     align-items: center;
+    transition: all 250ms var(--timingFunction);
+}
+
+.headerButton:hover,.headerButton:focus {
+    background-color: var(--primaryGreenColor);
 }

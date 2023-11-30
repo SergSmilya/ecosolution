@@ -10,4 +10,11 @@
 
     line-height: 112.5%; /* 18px/16 */
     letter-spacing: -0.64px;
+    transition: all 250ms var(--timingFunction);
+}
+
+.secondary__button:hover,.secondary__button:focus {
+    background-color: var(--primaryTextColor);
+    border: 1px solid var(--primaryTextColor);
+    color:var(--primaryGreenColor);
 }

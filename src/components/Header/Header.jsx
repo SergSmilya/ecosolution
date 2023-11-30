@@ -3,7 +3,7 @@ import { throttle } from "throttle-debounce";
 import styles from "./Header.module.css";
 import icon from "../../assets/imgs/svg/sprite.svg";
 import Logo from "../Logo/Logo";
-import ButtonGetInTouchComponent from "../ButtonGetInTouchComponent/ButtonGetInTouchComponent";
+import ButtonScrollComponent from "../ButtonScrollComponent/ButtonScrollComponent";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Header() {
@@ -36,8 +36,8 @@ export default function Header() {
               <use href={`${icon}#burger-menu`} />
             </svg>
           </button>
-          {widthScreen >= 768 && <ButtonGetInTouchComponent />}
-          <Link
+          {widthScreen >= 768 && <ButtonScrollComponent />}
+          {/* <Link
             activeClass="active"
             to="contactUs"
             spy={true}
@@ -46,7 +46,7 @@ export default function Header() {
             duration={700}
           >
             contactUs
-          </Link>
+          </Link> */}
         </div>
       </div>
     </header>

@@ -4,9 +4,9 @@ import Main from "../Main/Main";
 import styles from "./App.module.css";
 
 export default function App() {
-  const { container } = styles;
+  const { app__wrapper, container } = styles;
   return (
-    <div>
+    <div className={app__wrapper}>
       <div className={container}>
         <Header />
         <Main />

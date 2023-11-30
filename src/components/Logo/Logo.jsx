@@ -1,9 +1,10 @@
 import sprite from "../../assets/imgs/svg/sprite.svg";
+import style from "./Logo.module.css";
 
 export default function Logo() {
   return (
     <a>
-      <svg width={"269px"} height={"40px"} fill={"none"}>
+      <svg className={style.icon} width={"269px"} height={"40px"}>
         <use href={`${sprite}#Logo`} />
       </svg>
     </a>

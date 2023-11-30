@@ -7,7 +7,7 @@
 
 .adress__link {
     letter-spacing: -0.64px;
-    transition: color 0,3s;
+    transition: all 250ms var(--timingFunction);
 }
 
 .adress__link:hover,.adress__link:focus {
