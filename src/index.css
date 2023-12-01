@@ -9,6 +9,8 @@
   --primaryTextColor: #173D33;
   --colorTextInput:#828382;
   --timingFunction: cubic-bezier(0.4, 0, 0.2, 1);
+  --bgdColorModalTab: rgba(23, 61, 51, 0.25);
+  --bgdColorModalDesc: rgba(255, 255, 255, 0.75);
 
   font-family: 'Fira Sans', sans-serif;
   line-height: 1;

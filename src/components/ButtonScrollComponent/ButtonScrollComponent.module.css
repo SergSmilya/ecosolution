@@ -12,7 +12,8 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.64px;
-        transition: all 250ms var(--timingFunction);
+    transition: all 250ms var(--timingFunction);
+    cursor: pointer;
 
 }
 

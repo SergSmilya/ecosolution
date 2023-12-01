@@ -1,3 +1,9 @@
+.icon {
+    fill: var(--primaryTextColor);
+    transition: all 250ms var(--timingFunction);
+    cursor: pointer;
+}
+
 .icon:hover,icon:focus {
     fill: var(--primaryGreenColor);
 }

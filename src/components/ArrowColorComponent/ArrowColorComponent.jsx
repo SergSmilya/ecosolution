@@ -19,6 +19,7 @@ export default function ArrowColorComponent({
         padding: `${pad}`,
         fill: "none",
         transform: `rotate(${position}deg)`,
+        cursor: "pointer",
       }}
     >
       <use

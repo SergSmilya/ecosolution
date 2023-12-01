@@ -2,13 +2,15 @@ import AdressComponent from "../AdressComponent/AdressComponent";
 import BenefitItem from "../BenefitItem/BenefitItem";
 import style from "./SectionAbout.module.css";
 
+import images from "../../assets/imgs/hero/index.js";
+
 export default function SectionAbout() {
   const { about__section, about__title, about__postTitle, card__list } = style;
 
   return (
     <section className={about__section}>
       <AdressComponent />
-      <img src="" alt="" width={"100%"} height={200} />
+      <img src={images.mobImg} alt="" width={"100%"} height={200} />
       <h2 className={about__title}>Main values of our company</h2>
       <p className={about__postTitle}>
         EcoSolution envisions a world where sustainable energy solutions power a

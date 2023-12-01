@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react";
 import { throttle } from "throttle-debounce";
+import ButtonScrollComponent from "../ButtonScrollComponent/ButtonScrollComponent";
 import styles from "./Header.module.css";
 import icon from "../../assets/imgs/svg/sprite.svg";
 import Logo from "../Logo/Logo";
-import ButtonScrollComponent from "../ButtonScrollComponent/ButtonScrollComponent";
-import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Header() {
   const [widthScreen, setWidthScreen] = useState(window.screen.width);
@@ -21,13 +20,9 @@ export default function Header() {
     );
   }, []);
 
-  function scrollToTop() {
-    scroll.scrollToTop();
-  }
-
   return (
     <header className={header}>
-      <div className={headerWrap} onClick={scrollToTop}>
+      <div className={headerWrap}>
         <Logo />
 
         <div className={header__wrapForButton}>
@@ -37,16 +32,6 @@ export default function Header() {
             </svg>
           </button>
           {widthScreen >= 768 && <ButtonScrollComponent />}
-          {/* <Link
-            activeClass="active"
-            to="contactUs"
-            spy={true}
-            smooth={true}
-            offset={-40}
-            duration={700}
-          >
-            contactUs
-          </Link> */}
         </div>
       </div>
     </header>

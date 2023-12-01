@@ -16,6 +16,11 @@
 }
 
 .social__icon {
+    stroke: var(--primaryTextColor);
+    fill: var(--primaryTextColor);
+}
+
+.social__icon:hover {
+    stroke: white;
     fill: white;
-    stroke: var(--primaryTextColor); 
 }

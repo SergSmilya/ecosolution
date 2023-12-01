@@ -8,19 +8,24 @@
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
+  scroll-behavior: smooth;
 
   display: flex;
   flex-direction: column;
+}
 
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
+  .container {
     min-width: 768px;
     padding-left: 30px;
     padding-right: 30px;
   }
+}
 
-  @media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
+  .container {
     min-width: 1280px;
     padding-left: 100px;
     padding-right: 100px;
-  }
+}
 }
