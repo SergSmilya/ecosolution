@@ -1,5 +1,7 @@
 import { useState } from "react";
 import Slider from "react-slick";
+import SliderNextArrow from "../SliderNextArrow/SliderNextArrow";
+import SliderPrevArrow from "../SliderPrevArrow/SliderPrevArrow";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import style from "./SliderComponent.module.css";
@@ -25,6 +27,9 @@ export default function SliderComponent() {
     autoplay: true,
     autoplaySpeed: 2000,
     cssEase: "linear",
+    arrows: true,
+    nextArrow: <SliderNextArrow />,
+    prevArrow: <SliderPrevArrow />,
     afterChange: (current) => setActiveSlide(current + 1),
   };
 
