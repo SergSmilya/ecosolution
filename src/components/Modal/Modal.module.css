@@ -8,24 +8,31 @@
     justify-content: center;
     align-items: center;
     z-index: 1200;
-
-    @media screen and (min-width: 768px) {
-        background-color: var(--bgdColorModalTab);
-        backdrop-filter: blur(2px);
-    }
-
-    @media screen and (min-width: 1280px) {
-        background-color: var(--bgdColorModalDesc);
-    }
 }
 
 .Modal {
-    /* max-width: calc(100vw - 48px);
-    max-height: calc(100vh - 24px); */
     width: 320px;
     padding: 24px;
     background: rgba(23, 61, 51, 0.75);
     backdrop-filter: blur(12.5px);
     border-radius: 25px;
-    height: 568px;
+    min-height: 568px;
+}
+
+@media screen and (min-width: 768px) {
+    .Overlay {
+        background-color: var(--bgdColorModalTab);
+        backdrop-filter: blur(2px);        
+    }
+
+    .Modal {
+        height: 873px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .Overlay {
+        background-color: var(--bgdColorModalDesc);
+    }
 }

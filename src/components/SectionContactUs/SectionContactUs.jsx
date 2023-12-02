@@ -1,6 +1,7 @@
 import { Element } from "react-scroll";
 import sprite from "../../assets/imgs/svg/sprite.svg";
 import style from "./SectionContactUs.module.css";
+import ContactFormComponent from "../ContactFormComponent/ContactFormComponent";
 
 export default function SectionContactUs() {
   const {
@@ -21,8 +22,8 @@ export default function SectionContactUs() {
   } = style;
 
   return (
-    <section className={contactUs__section} id="contactUs">
-      <Element name="contact us">
+    <Element name="contact us">
+      <section className={contactUs__section} id="contactUs">
         <h2 className={contactUs__title}>Contact us</h2>
         <div className={main__wrap}>
           <div className={tel__wrap}>
@@ -97,7 +98,8 @@ export default function SectionContactUs() {
             </ul>
           </div>
         </div>
-      </Element>
-    </section>
+        <ContactFormComponent />
+      </section>
+    </Element>
   );
 }

@@ -1,14 +1,8 @@
-.contactForm__section {
-    padding-top: 36px;
-    padding-bottom: 36px;
-    background-color: var(--bgdColorCardBenefit);
-}
-
 .form {
-    padding-left: 12px;
-    padding-right: 12px;
     display: flex;
     flex-wrap: wrap;
+    padding: 36px 12px;
+    background-color: var(--bgdColorCardBenefit);
 }
 
 .form__label {
