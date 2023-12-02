@@ -31,6 +31,10 @@
     justify-content: space-between;
 }
 
+.headerWrap.headerWrap__background {
+    background-color: var(--bgdColorHeader);
+}
+
 .header__wrapForButton {
     display: flex;
     gap: 12px;

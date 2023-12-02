@@ -1,0 +1,48 @@
+.close__button {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px;
+    width: 100%;
+    margin-bottom: 16px;
+
+    color:var(--bgdColorHeader);
+    font-size: 20px;
+    letter-spacing: -0.8px;
+    transition: all 250ms var(--timingFunction);
+}
+
+.close__button>svg {
+    stroke: var(--bgdColorHeader);
+    transition: all 250ms var(--timingFunction);
+}
+
+.close__button::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: var(--bgdColorHeader);
+    margin-top: 4px;
+}
+
+.close__button:hover,.close__button:focus {
+    color: var(--primaryGreenColor);
+}
+
+.close__button:hover>svg,
+.close__button:focus>svg {
+    stroke: var(--primaryGreenColor);
+}
+
+@media screen and (min-width: 1280px) {
+    .close__button {
+        font-size: 16px;
+        letter-spacing: -0.64px;
+    }
+}
+
+.nav__list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

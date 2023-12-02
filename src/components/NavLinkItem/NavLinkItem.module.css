@@ -1,0 +1,28 @@
+.nav__button {
+    display: flex;
+    align-items: center;
+    gap:8px;
+    color: var(--defaultColorNavLink);
+    font-size: 24px;
+    letter-spacing: -0.96px;
+    transition: all 250ms var(--timingFunction);
+}
+
+.nav__button svg {
+    stroke: var(--defaultColorNavLink);
+    transition: all 250ms var(--timingFunction);
+}
+
+.nav__button:hover, .nav__button:focus {
+    color: var(--bgdColorHeader);
+}
+
+.nav__button:hover svg,
+.nav__button:focus svg {
+    stroke: var(--bgdColorHeader);
+}
+
+.nav__button.active {
+    color: var(--primaryGreenColor);
+}
+

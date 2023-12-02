@@ -4,6 +4,7 @@
   /* Variables */
   --mainBackgroung: #F3F5FA;
   --bgdColorBtnHeader: #DCEFD8;
+  --bgdColorHeader: #FFF;
   --bgdColorCardBenefit: #EAEDF1;
   --primaryGreenColor: #97D28B;
   --primaryTextColor: #173D33;
@@ -11,6 +12,7 @@
   --timingFunction: cubic-bezier(0.4, 0, 0.2, 1);
   --bgdColorModalTab: rgba(23, 61, 51, 0.25);
   --bgdColorModalDesc: rgba(255, 255, 255, 0.75);
+  --defaultColorNavLink:rgba(255, 255, 255, 0.25);
 
   font-family: 'Fira Sans', sans-serif;
   line-height: 1;

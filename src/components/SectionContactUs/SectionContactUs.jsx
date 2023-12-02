@@ -22,7 +22,7 @@ export default function SectionContactUs() {
 
   return (
     <section className={contactUs__section} id="contactUs">
-      <Element name="contacts">
+      <Element name="contact us">
         <h2 className={contactUs__title}>Contact us</h2>
         <div className={main__wrap}>
           <div className={tel__wrap}>
