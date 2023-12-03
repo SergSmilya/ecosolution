@@ -15,7 +15,7 @@ import img5 from "../../assets/imgs/imges for slider/nuclear-power-plant-center-
 export default function SliderComponent() {
   const [activeSlide, setActiveSlide] = useState(1);
 
-  const { slider__wrap, slider__img } = style;
+  const { slider__wrap, slider__img, next__button, prev__button } = style;
 
   const settings = {
     swipeToSlide: true,
@@ -28,8 +28,8 @@ export default function SliderComponent() {
     autoplaySpeed: 2000,
     cssEase: "linear",
     arrows: true,
-    nextArrow: <SliderNextArrow />,
-    prevArrow: <SliderPrevArrow />,
+    nextArrow: <SliderNextArrow className={next__button} />,
+    prevArrow: <SliderPrevArrow className={prev__button} />,
     afterChange: (current) => setActiveSlide(current + 1),
   };
 
