@@ -76,6 +76,7 @@ svg {
   stroke-width: 0;
   stroke: var(--primaryTextColor);
   fill: transparent;
+  transition: all 0.25s var(--timingFunction);
 }
 
 a {
@@ -85,7 +86,7 @@ a {
 }
 
 button {
-  transition: border-color 0.25s;
+  transition: border-color 0.25s var(--timingFunction);
 }
 
 /* button:hover {

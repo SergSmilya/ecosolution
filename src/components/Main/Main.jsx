@@ -5,6 +5,7 @@ import SectionCases from "../SectionCases/SectionCases";
 import SectionContactUs from "../SectionContactUs/SectionContactUs";
 import SectionElectricProd from "../SectionElectricProd/SectionElectricProd";
 import { Element } from "react-scroll";
+import SocialMediaComponent from "../SocialMediaComponent/SocialMediaComponent";
 
 export default function Main() {
   return (

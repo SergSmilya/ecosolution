@@ -1,0 +1,16 @@
+.foto {
+    margin-bottom: 8px;
+}
+
+.title {
+    color: var(--primaryTextColor);
+    font-size: 20px;
+    letter-spacing: -0.8px;
+    margin-bottom: 2px;
+}
+
+.sub__title {
+    color: var(--colorTextInput);
+    font-size: 16px;
+    letter-spacing: -0.64px;
+}

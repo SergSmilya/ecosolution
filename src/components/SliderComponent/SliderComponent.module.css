@@ -1,4 +1,3 @@
-.next__button {
-   outline: 1px solid red;
-   /* position: absolute; */
+.wrap__pos {
+   position: relative;
 }

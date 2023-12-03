@@ -5,6 +5,15 @@
     align-items: center;
     justify-content: center;
     border-radius: 100px;
-    border: 1px solid var(--primaryGreenColor);
+    border: 1px solid var(--primaryTextColor);
     padding: 15px;
+}
+
+.arrow__button:hover,
+.arrow__button:focus {
+    border-color: var(--primaryGreenColor);
+}
+
+.arrow__button:hover svg {
+    stroke: var(--primaryGreenColor);
 }
