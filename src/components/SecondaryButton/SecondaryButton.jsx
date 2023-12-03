@@ -16,7 +16,7 @@ export default function SecondaryButton({ children, type = "button" }) {
     <button
       className={style.secondary__button}
       type={type}
-      onClick={scrollToCases}
+      // onClick={scrollToCases}
     >
       {children}
       <ArrowColorComponent />

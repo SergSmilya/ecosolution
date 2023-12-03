@@ -13,6 +13,7 @@
   --bgdColorModalTab: rgba(23, 61, 51, 0.25);
   --bgdColorModalDesc: rgba(255, 255, 255, 0.75);
   --defaultColorNavLink:rgba(255, 255, 255, 0.25);
+  --colorErrorMessage:#D28B8B;
 
   font-family: 'Fira Sans', sans-serif;
   line-height: 1;
