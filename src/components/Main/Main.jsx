@@ -6,19 +6,18 @@ import SectionCases from "../SectionCases/SectionCases";
 import SectionContactUs from "../SectionContactUs/SectionContactUs";
 import SectionElectricProd from "../SectionElectricProd/SectionElectricProd";
 import { Element } from "react-scroll";
-import SocialMediaComponent from "../SocialMediaComponent/SocialMediaComponent";
 
 export default function Main() {
   return (
     <Element name="main">
       <main style={{ flexGrow: 1 }}>
-        {/* <SectionWhatIsIt /> */}
-        {/* <Hero /> */}
+        <SectionWhatIsIt />
+        <Hero />
         <SectionAbout />
-        {/* <SectionElectricProd /> */}
-        {/* <SectionCases /> */}
-        {/* <SectionAsked /> */}
-        {/* <SectionContactUs /> */}
+        <SectionElectricProd />
+        <SectionCases />
+        <SectionAsked />
+        <SectionContactUs />
       </main>
     </Element>
   );

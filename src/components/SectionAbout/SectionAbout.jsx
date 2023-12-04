@@ -30,7 +30,7 @@ export default function SectionAbout() {
           way in innovative technologies that harness the power of nature to
           meet the world's energy needs.
         </p>
-        {/* <div className={clsx(block__list, left)}>
+        <div className={clsx(block__list, left)}>
           <ul className={card__list}>
             <li>
               <BenefitItem nameIcon="openness" nameBenefit="Openness">
@@ -64,7 +64,7 @@ export default function SectionAbout() {
               </BenefitItem>
             </li>
           </ul>
-        </div> */}
+        </div>
       </Element>
     </section>
   );
