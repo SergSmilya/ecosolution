@@ -2,6 +2,7 @@ import { Element } from "react-scroll";
 import sprite from "../../assets/imgs/svg/sprite.svg";
 import style from "./SectionContactUs.module.css";
 import ContactFormComponent from "../ContactFormComponent/ContactFormComponent";
+import SocialMediaComponent from "../SocialMediaComponent/SocialMediaComponent";
 
 export default function SectionContactUs() {
   const {
@@ -16,9 +17,7 @@ export default function SectionContactUs() {
     mail__wrap,
     adress__wrap,
     social__wrap,
-    social__list,
-    social__item,
-    social__link,
+    sub__title,
   } = style;
 
   return (
@@ -71,31 +70,8 @@ export default function SectionContactUs() {
             </a>
           </div>
           <div className={social__wrap}>
-            <p className={contactUs__postTitle}>Social Networks:</p>
-            <ul className={social__list}>
-              <li className={social__item}>
-                <a
-                  className={social__link}
-                  href="https://www.facebook.com/"
-                  target="_blank"
-                >
-                  <svg width={"24px"} height={"24px"}>
-                    <use href={`${sprite}#facebook`} />
-                  </svg>
-                </a>
-              </li>
-              <li className={social__item}>
-                <a
-                  className={social__link}
-                  href="https://www.instagram.com/"
-                  target="_blank"
-                >
-                  <svg width={"24px"} height={"24px"}>
-                    <use href={`${sprite}#instagram`} />
-                  </svg>
-                </a>
-              </li>
-            </ul>
+            <p className={sub__title}>Social Networks:</p>
+            <SocialMediaComponent width={48} height={48} padding={12} />
           </div>
         </div>
         <ContactFormComponent />

@@ -1,7 +1,8 @@
 import style from "./AdressComponent.module.css";
 
-export default function AdressComponent() {
+export default function AdressComponent({ display = null }) {
   const { adress, adress__link, adress__text } = style;
+
   return (
     <address className={adress}>
       <a
@@ -17,7 +18,9 @@ export default function AdressComponent() {
         office@ecosolution.com
       </a>
 
-      <p className={adress__text}>ecosolution &#169; 2023</p>
+      <p className={adress__text} style={{ display: display }}>
+        ecosolution &#169; 2023
+      </p>
     </address>
   );
 }

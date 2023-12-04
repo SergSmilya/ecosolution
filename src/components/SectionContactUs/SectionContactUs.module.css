@@ -11,7 +11,7 @@
 .main__wrap {
     width: 244px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 24px;
     margin-bottom: 24px;
 }
@@ -32,12 +32,19 @@
     text-align: justify;
     font-size: 16px;
     letter-spacing: -0.8px;
-   
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .contactUs__link:hover svg,.contactUs__link:focus svg {
     stroke: var(--primaryGreenColor);
-        transition: all 250ms var(--timingFunction);
+    transition: all 250ms var(--timingFunction);
+}
+
+.social__wrap {
+    margin-right: auto;
 }
 
 .social__list {
@@ -51,6 +58,11 @@
     padding: 12px;
 }
 
+.sub__title {
+    margin-bottom: 8px;
+    letter-spacing: -0.64px;
+}
+
 @media screen and (min-width: 768px) {
     .contactUs__section {
         display: grid;
@@ -62,7 +74,23 @@
         grid-column: span 2;
     }
 
+    .contactUs__link {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
     .main__wrap {
-        
+       gap: 32px;
+    }
+
+    .main__wrap {
+        width: 466px;
+    }
+
+    .contactUs__link {
+        font-size: 24px;
+        letter-spacing: -0.96px;
     }
 }

@@ -67,8 +67,8 @@ export default function Header() {
   }
 
   return (
-    <header className={header}>
-      <div className={clsx(headerWrap, isScroll && headerWrap__background)}>
+    <header className={clsx(header, isScroll && headerWrap__background)}>
+      <div className={headerWrap}>
         <Logo />
 
         <div className={header__wrapForButton}>

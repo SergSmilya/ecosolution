@@ -8,9 +8,9 @@ export default function App() {
   return (
     <div className={app__wrapper}>
       <div className={container}>
-        <Header />
+        {/* <Header /> */}
         <Main />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </div>
   );

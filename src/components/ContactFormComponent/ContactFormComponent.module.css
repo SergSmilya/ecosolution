@@ -40,8 +40,27 @@
     gap: 124px;
 }
 
-.button__wrap {
+.button {
     margin-left: auto;
+    display: inline-flex;
+    height: 39px;
+    padding: 4px 4px 4px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 500px;
+    border: 1px solid var(--primaryGreenColor);
+    line-height: 112.5%;
+    /* 18px/16 */
+    letter-spacing: -0.64px;
+    transition: all 250ms var(--timingFunction);
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--primaryTextColor);
+    border: 1px solid var(--primaryTextColor);
+    color: var(--primaryGreenColor);
 }
 
 .form__error {
@@ -51,4 +70,10 @@
     color: var(--colorErrorMessage);
     font-size: 12px;
     letter-spacing: -0.48px;
+}
+
+@media screen and (min-width: 1280px) {
+    .form__input {
+        font-size: 20px;
+    }
 }

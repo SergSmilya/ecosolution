@@ -7,6 +7,7 @@ export default function BenefitItem({
   nameBenefit = "Innovation",
 }) {
   const { benefit__container, icon__wrap, icon__desc, benefit__desc } = styles;
+
   return (
     <div className={benefit__container}>
       <div className={icon__wrap}>

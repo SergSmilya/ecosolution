@@ -27,7 +27,6 @@ export default function SectionElectricProd() {
         Electricity we produced for all time
       </h2>
       <h3 className={electricProd__countTitle}>
-        {/* <span className={electricProd__count}>1.134.147.814</span>kWh */}
         <span className={electricProd__count}>
           {count.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}
         </span>

@@ -1,4 +1,5 @@
 import SectionWhatIsIt from "../SectionWhatIsIt/SectionWhatIsIt";
+import Hero from "../Hero/Hero";
 import SectionAbout from "../SectionAbout/SectionAbout";
 import SectionAsked from "../SectionAsked/SectionAsked";
 import SectionCases from "../SectionCases/SectionCases";
@@ -11,12 +12,13 @@ export default function Main() {
   return (
     <Element name="main">
       <main style={{ flexGrow: 1 }}>
-        <SectionWhatIsIt />
+        {/* <SectionWhatIsIt /> */}
+        {/* <Hero /> */}
         <SectionAbout />
-        <SectionElectricProd />
-        <SectionCases />
-        <SectionAsked />
-        <SectionContactUs />
+        {/* <SectionElectricProd /> */}
+        {/* <SectionCases /> */}
+        {/* <SectionAsked /> */}
+        {/* <SectionContactUs /> */}
       </main>
     </Element>
   );

@@ -1,7 +1,11 @@
 import style from "./SocialMediaComponent.module.css";
 import sprite from "../../assets/imgs/svg/sprite.svg";
 
-export default function SocialMediaComponent() {
+export default function SocialMediaComponent({
+  width = null,
+  height = null,
+  padding = null,
+}) {
   const {
     social__wrap,
     social__list,
@@ -13,7 +17,14 @@ export default function SocialMediaComponent() {
   return (
     <div className={social__wrap}>
       <ul className={social__list}>
-        <li className={social__item}>
+        <li
+          className={social__item}
+          style={{
+            width: width,
+            height: height,
+            padding: padding,
+          }}
+        >
           <a
             className={social__link}
             href="https://www.facebook.com/"
@@ -24,7 +35,14 @@ export default function SocialMediaComponent() {
             </svg>
           </a>
         </li>
-        <li className={social__item}>
+        <li
+          className={social__item}
+          style={{
+            width: width,
+            height: height,
+            padding: padding,
+          }}
+        >
           <a
             className={social__link}
             href="https://www.instagram.com/"

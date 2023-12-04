@@ -8,16 +8,83 @@
 .asked__title {
     width: 320px;
     margin-bottom: 24px;
+    margin-right: auto;
 }
 
-.questions__list {
+.element {
     margin-bottom: 36px;
 }
 
+.accord {
+    border:none
+}
+
+.additional__title {
+    display: none;
+}
+
+.inner__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .asked__postTitle {
+    text-align: justify;
     margin-bottom: 12px;
 }
 
-.asked__buttonWrap {
-   
+.wrap__button {
+    width: 130px;
+}
+
+@media screen and (min-width: 768px) {
+    .asked__section {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
+
+    .asked__title {
+       display: none;
+    }
+
+    .element {
+        margin-bottom: 0;
+        flex-basis: calc((100% - 24px) / 2);
+    }
+
+    .asked__buttonWrap {
+        display: flex;
+        flex-direction: column;
+       justify-content: space-between;
+        align-items: center;
+        flex-basis: calc((100% - 24px) / 2);
+    }
+
+    .additional__title {
+        display: flex;
+        width: 347px;
+        font-size: 36px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .asked__section {
+        gap: 185px;
+    }
+
+    .element {
+        flex-basis: calc((100% - 48px) / 2);
+    }
+
+    .asked__buttonWrap {
+        flex-basis: calc((100% - 48px) / 2);
+    }
+
+    .additional__title {
+        width: 398px;
+        font-size: 48px;
+    }
 }

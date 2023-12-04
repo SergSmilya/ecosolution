@@ -31,3 +31,33 @@
     background-color: var(--primaryGreenColor);
     margin-bottom: 12px;
 }
+
+@media screen and (min-width: 768px) {
+    .benefit__container {
+        padding: 13px 12px;
+        width: 159px;
+    }
+
+    .icon__desc {
+        font-size: 18px;
+        line-height: 133.33%; /* 24px/18 */
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .benefit__container {
+        padding: 13px 12px;
+        width: 274px;
+        height: 339px;
+    }
+
+    .icon__desc {
+        font-size: 32px;
+        line-height: 150%; /* 48px/32 */
+    }
+
+    .benefit__desc {
+        font-size: 16px;
+        letter-spacing: -0.64px;
+    }
+}

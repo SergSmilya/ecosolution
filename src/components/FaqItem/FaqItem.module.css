@@ -1,6 +1,7 @@
-/* .question__item {
+.question__item {
     display: flex;
-} */
+    flex-direction: column;
+}
 
 .question__item::before {
     content: '';
@@ -10,7 +11,21 @@
     margin-bottom: 16px;
 }
 
-.question__button {}
+.question__button {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon {
+    flex-shrink: 0;
+    stroke: var(--primaryTextColor);
+}
+
+.icon.active {
+    stroke: var(--primaryGreenColor);
+}
 
 .question__title {
     text-align: justify;
@@ -27,5 +42,5 @@
     text-align: justify;
     font-size: 14px;
     letter-spacing: -0.56px;
-    padding-bottom: 16px;
+    /* padding-bottom: 16px; */
 }

@@ -11,6 +11,10 @@
     margin-bottom: 24px;
 }
 
+.social__additional {
+    display: none;
+}
+
 .footer__logoButton {
     display: flex;
     align-items: center;
@@ -20,4 +24,26 @@
 
 .social__wrap {
     margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 28px;
+    }
+
+    .social__additional {
+        display: flex;
+        margin-left: -200px;
+    }
+
+    .social__wrap {
+    display: none;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .footer {
+        padding-top: 44px;
+    }
 }

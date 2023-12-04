@@ -31,3 +31,51 @@
     font-weight: 700;
     color: var(--primaryGreenColor);
 }
+
+@media screen and (min-width: 768px) {
+    .electricProd__title {
+        width: 368px;
+        font-size: 36px;
+        margin: 0 auto;
+    }
+
+    .electricProd__title {
+        padding-bottom: 24px;
+    }
+
+    .electricProd__title::after {
+        height: 87px;
+    }
+
+    .electricProd__countTitle {
+        gap: 24px;
+        font-size: 28px;
+        line-height: 171.43%; /* 48px/28 */
+        margin-top: 24px;
+    }
+
+    .electricProd__count {
+        font-size: 100px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .electricProd__title {
+        width: 491px;
+        font-size: 48px;
+    }
+
+    .electricProd__title {
+        padding-bottom: 17px;
+    }
+
+    .electricProd__countTitle {
+        font-size: 48px;
+        line-height: 1;
+        margin-top: 17px;
+    }
+
+    .electricProd__count {
+        font-size: 164px;
+    }
+}
