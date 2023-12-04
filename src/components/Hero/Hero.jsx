@@ -9,7 +9,7 @@ import images from "../../assets/imgs/hero/index.js";
 export default function Hero() {
   const [isHidenCopy, setIsHidenCopy] = useState(false);
 
-  const { about__img } = style;
+  const { hero__section, about__img } = style;
 
   useEffect(() => {
     window.addEventListener("resize", throttle(300, isHideCopyOnMobile));
@@ -25,7 +25,7 @@ export default function Hero() {
     setIsHidenCopy(WIDTH);
   }
   return (
-    <Element name="hero">
+    <Element className={hero__section} name="hero">
       <AdressComponent display={isHidenCopy >= 768 ? "block" : "none"} />
       <img className={about__img} src={images.mobImg} alt="" width={"100%"} />
     </Element>

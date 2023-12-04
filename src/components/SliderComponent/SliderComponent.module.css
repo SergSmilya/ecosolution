@@ -1,3 +1,7 @@
 .wrap__pos {
    position: relative;
 }
+
+.count__slide {
+   margin-bottom: 12px;
+}

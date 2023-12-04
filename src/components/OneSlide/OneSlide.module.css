@@ -1,0 +1,62 @@
+.main__wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: var(--bgdColorCardBenefit);
+}
+
+.second__wrap {
+    padding: 12px;
+}
+
+.slide__img {
+    width: 100%;
+    height: auto;
+}
+
+.commonTextButton__wrap {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 21px;
+}
+
+.slide__location {
+    text-align: justify;
+    font-size: 18px;
+    letter-spacing: -0.72px;
+}
+
+.slide__name {
+    text-align: justify;
+    font-size: 18px;
+    letter-spacing: -0.72px;
+}
+
+.desc__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.commonTextButton__wrap::after {
+    position: absolute;
+    bottom: -12px;
+    content: '';
+    height: 1px;
+    width: 100%;
+    background-color: var(--primaryGreenColor);
+}
+
+.slide__type {
+    text-align: justify;
+    font-size: 12px;
+    letter-spacing: -0.48px;
+}
+
+.slide__date {
+    text-align: justify;
+    font-size: 12px;
+    letter-spacing: -0.48px;
+}

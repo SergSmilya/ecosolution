@@ -2,7 +2,7 @@ import { scroller } from "react-scroll";
 import ArrowColorComponent from "../ArrowColorComponent/ArrowColorComponent";
 import style from "./SecondaryButton.module.css";
 
-export default function SecondaryButton({ children, type = "button" }) {
+export default function SecondaryButton({ children }) {
   function scrollToCases() {
     scroller.scrollTo("cases", {
       duration: 1500,
@@ -15,7 +15,7 @@ export default function SecondaryButton({ children, type = "button" }) {
   return (
     <button
       className={style.secondary__button}
-      type={type}
+      type={"button"}
       onClick={scrollToCases}
     >
       {children}

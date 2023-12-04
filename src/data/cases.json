@@ -1,34 +1,39 @@
 [
   {
-    "img": "/cases/beautiful-view-wind-turbines-grass-covered-field-captured-holland.jpg",
+    "id": 1,
+    "img": "../assets/imgs/imges for slider/beautiful-view-wind-turbines-grass-covered-field-captured-holland.jpg",
     "location": "Lviv Region, Radekhiv town",
     "name": "Private Enterprise “ZAKHIDNYI BUH”",
     "type": "Wind Power for auto field irrigation",
     "date": "July 2023"
   },
   {
-    "img": "/cases/beautiful-view-wind-turbines-grass-covered-field-captured-holland(1).jpg",
+    "id": 2,
+    "img": "../../assets/imgs/imges for slider/beautiful-view-wind-turbines-grass-covered-field-captured-holland1.jpg",
     "location": "Zhytomyr city",
     "name": "Private Enterprise “Bosch”",
     "type": "Solar Panels for industrial use",
     "date": "November 2023"
   },
   {
-    "img": "/cases/beautiful-view-wind-turbines-grass-covered-field-captured-holland(2).jpg",
+    "id": 3,
+    "img": "../../assets/imgs/imges for slider/beautiful-view-wind-turbines-grass-covered-field-captured-holland2.jpg",
     "location": "Rivne city",
     "name": "Private Enterprise “Biotech”",
     "type": "Thermal modules",
     "date": "October 2023"
   },
   {
-    "img": "/cases/landscape-with-windmills.jpg",
+    "id": 4,
+    "img": "../../assets/imgs/imges for slider/landscape-with-windmills.jpg",
     "location": "Kherson city",
     "name": "Private Enterprise “HealthyFarm”",
     "type": "Wind power",
     "date": "September 2021"
   },
   {
-    "img": "/cases/nuclear-power-plant-center-spain.jpg",
+    "id": 5,
+    "img": "../../assets/imgs/imges for slider/nuclear-power-plant-center-spain.jpg",
     "location": "Zaporizhia city",
     "name": "Private Enterprise “Biotech”",
     "type": "Mini nuclear stations",
